@@ -1,5 +1,5 @@
 # ChatBuddy
-ChatBuddy uses artificial intelligence to contribute to the well-being of the elderly persons. 
+ChatBuddy uses artificial intelligence to contribute to the well-being of the elderly persons.
 
 # System Overview
 ![system_overview_5](https://user-images.githubusercontent.com/35894891/121050643-09123f00-c7b9-11eb-9572-bc1e9216168c.png)
@@ -21,8 +21,9 @@ ChatBuddy uses artificial intelligence to contribute to the well-being of the el
 
  Tested with Chrome, Edge and Firefox
 
-# Server Python 
-Before running the server, you need to generate the LSTM CNN model (see NLP_LSTM_CNN directory), then copy contents of NLP_LSTM_CNN/models to web_app/python_server/nlp.
+# Server Python
+Before running the server, you need to generate the LSTM CNN model (see NLP_LSTM_CNN directory), then copy contents of NLP_LSTM_CNN/models to "web app/python_server/nlp".
+
 To run the server on http://localhost:5000/ </br>
  <code>
  python server.py
@@ -37,7 +38,7 @@ To run the server on http://localhost:5000/ </br>
    (cmd)
    </br>
  <code>
-  pip install -r requirements.txt 
+  pip install -r requirements.txt
   </code>
 
   dependencies:
@@ -84,7 +85,7 @@ For emotion detection the Kaggle dataset is used. This dataset we use to detect 
  <code>
  cd python_server/utils
  </code>
- (cmd) 
+ (cmd)
  </br>
 
   <code>
@@ -113,7 +114,7 @@ The validation accuracy starts to stabilize at the end of the 23 epochs between 
  <code>
  cd python_server/face_emotion
   </code>
-(cmd) 
+(cmd)
    </br>
    <code>
 python visual_emotion_training.py
@@ -130,7 +131,7 @@ The implementation of our model on a webcam:
  <code>
  cd python_server/face_emotion
    </code>
-(cmd) 
+(cmd)
    </br>
    <code>
 python visual_emotion_testing.py
@@ -154,7 +155,7 @@ Face recognition process:
  <code>
  cd python_server/face_encoding
    </code>
-(cmd) 
+(cmd)
    </br>
   </br>
      <code>
@@ -179,12 +180,8 @@ d) Claims passing the Turing Test in the 60's.
  <code>
  cd python_server/eliza
   </code>
-(cmd) 
+(cmd)
    </br>
    <code>
 python eliza.py
  </code>
-
-
-
-
