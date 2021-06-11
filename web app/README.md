@@ -18,16 +18,17 @@ ChatBuddy uses artificial intelligence to contribute to the well-being of the el
  </code>
  Runs the web app on http://localhost:3000/
  </p>
- 
+
  Tested with Chrome, Edge and Firefox
 
 # Server Python 
+Before running the server, you need to generate the LSTM CNN model (see NLP_LSTM_CNN directory), then copy contents of NLP_LSTM_CNN/models to web_app/python_server/nlp.
 To run the server on http://localhost:5000/ </br>
  <code>
  python server.py
  </code>
  </p>
- 
+
  ## Dependencies Python
  Supported for Python 3.8 </br>
   <code>
@@ -38,9 +39,9 @@ To run the server on http://localhost:5000/ </br>
  <code>
   pip install -r requirements.txt 
   </code>
-  
+
   dependencies:
-  
+
   - numpy </br>
   - opencv-python</br>
   - dlib  (Install Visual Studio with C++ compiler)</br>
@@ -61,9 +62,9 @@ To run the server on http://localhost:5000/ </br>
 Tested with Python 3.8.8, 3.8.10 Make sure to install the C++ compiler!</br>
 For Python 3.8 on Windows 10 | Cmake | Dlib =>
 https://www.youtube.com/watch?v=xaDJ5xnc8dc  
- 
+
  ## Dataset Face Emotion Detection
- 
+
 For emotion detection the Kaggle dataset is used. This dataset we use to detect 5 facial emotions as listed below:
 'angry': 0, 'happy': 1, 'neutral': 2, 'sad': 3, 'surprise': 4
  https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
@@ -101,11 +102,11 @@ python resize_images.py
  </code>
  (step 7)
  </br>
- 
+
 ## Face Emotion Detection – Training (CNN)
- 
+
 ![image](https://user-images.githubusercontent.com/35894891/120776271-5629b300-c524-11eb-80c0-7869df8434d3.png)
- 
+
 Evaluation accuracy and training loss:
 The validation accuracy starts to stabilize at the end of the 23 epochs between 60% and 70% accuracy.
 
@@ -135,7 +136,7 @@ The implementation of our model on a webcam:
 python visual_emotion_testing.py
  </code>
  </br>
- 
+
 ## Face Recognition
 
 Face recognition process:
@@ -146,7 +147,7 @@ Face recognition process:
 5) Compare encodings with new face
 6) Use KNN to make the final face classification
  </br>
- 
+
  ![Afbeelding1](https://user-images.githubusercontent.com/35894891/120645316-929fd500-c478-11eb-8ca0-c6cac8bdf251.jpg)
 
  </br>
