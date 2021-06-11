@@ -21,8 +21,8 @@ This project consists of a couple of different parts. To run everything, you nee
 
 The goal of this repository is to bundle the code of all group members together, below you can find the original repos that were used by those who used version control to write their code:
 
+Web app: https://github.com/ReggieVW/ChatBuddy
+
 Integration: https://github.com/IljaDR/Fish-emotion-engine
 
 Unity interface: https://github.com/IljaDR/Chatbuddy
-
-Web app: https://github.com/ReggieVW/ChatBuddy
