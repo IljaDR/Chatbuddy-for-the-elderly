@@ -11,7 +11,7 @@ You can see the general overview of the goldfish part of the project below:
 
 The user will speak to a fish, their voice will get converted to text, the fish will respond visually to what the user has said. In parallel to this, a BERT and LSTM model will process the text and output a more accurate emotion, which will get added to a report for the caregiver.
 
-An overview of the web app can be found in the web app directory. 
+An overview of the web app can be found in the web app directory.
 
 ## Instructions
 
@@ -22,5 +22,7 @@ This project consists of a couple of different parts. To run everything, you nee
 The goal of this repository is to bundle the code of all group members together, below you can find the original repos that were used by those who used version control to write their code:
 
 Integration: https://github.com/IljaDR/Fish-emotion-engine
+
 Unity interface: https://github.com/IljaDR/Chatbuddy
+
 Web app: https://github.com/ReggieVW/ChatBuddy
