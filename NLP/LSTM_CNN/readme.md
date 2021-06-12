@@ -20,3 +20,8 @@ required packages should already be installed.
 To predict a sequence, run emofromtweet.py through the command line.
 It will ask an input. You can write a sentence, in enlgish, and the model will return a string containing
 the prediction scores for each emotion.
+
+#### Citation
+
+The data set used throughout the NLP exercise is the Lukas Garbas data set
+https://github.com/lukasgarbas/nlp-text-emotion
