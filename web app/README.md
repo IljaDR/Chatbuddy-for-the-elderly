@@ -22,7 +22,7 @@ ChatBuddy uses artificial intelligence to contribute to the well-being of the el
  Tested with Chrome, Edge and Firefox
 
 # Server Python
-Before running the server, you need to generate the LSTM CNN model (see NLP_LSTM_CNN directory), then copy contents of NLP_LSTM_CNN/models to "web app/python_server/nlp".
+Before running the server, you need to generate the LSTM CNN model (see NLP/LSTM_CNN directory), then copy contents of NLP/LSTM_CNN/models to "web app/python_server/nlp".
 
 To run the server on http://localhost:5000/ </br>
  <code>
