@@ -1,4 +1,7 @@
 # BERT + concat
+
+The contents of this directory were contributed by Alexandra Veller.
+
 ## BERT model (NLP 1)
 In the **Alexa Classifier** folder execute GoS_NLP_Emotion_Classifier_BERT_Best.ipynb on the same data set that can be found in Chatbuddy-for-the-elderly/NLP/LSTM_CNN/datasets/ (Lukas Garbas data set).
 The model was created on Google Colab, when executed in this environment no additional dependencies need to be installed.
